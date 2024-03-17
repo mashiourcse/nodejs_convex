@@ -43,6 +43,22 @@ app.get('/brandedFoods', async(req, res) => {
     // console.log(item);
     // res.json(item);
 });
+
+// /brandedFoods25
+app.get('/brandedFoods25', async(req, res) => {
+    try {
+        let item = await client.query(api.task.getBrandedFood2)
+
+        res.status(201).json({ message: 'Items fetched successfully',data:item });
+
+    } catch (error) {
+        
+    }
+    // console.log(item);
+    // res.json(item);
+});
+
+
 //getDemo
 app.get('/getDemo', async(req, res) => {
     try {
@@ -56,6 +72,7 @@ app.get('/getDemo', async(req, res) => {
     // console.log(item);
     // res.json(item);
 });
+
 
 
 app.get('/:id',async(req,res)=>{

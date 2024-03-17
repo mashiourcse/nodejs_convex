@@ -34,16 +34,22 @@ export const create= mutation({
 })
 
 //brandedFoods
-
 export const getBrandedFoods = query({
     args: {},
     handler: async (ctx) => {
-      return await ctx.db.query("brandedFoods").take(5);
+      return await ctx.db.query("brandedFoods").take(15);
+    },
+  });
+
+  //brandedFoods25
+  export const getBrandedFood2 = query({
+    args: {},
+    handler: async (ctx) => {
+      return await ctx.db.query("brandedFoods").take(25);
     },
   });
 
   // demo
-
   export const getDemo = query({
     args: {},
     handler: async (ctx) => {
