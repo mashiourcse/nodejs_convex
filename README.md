@@ -1,5 +1,5 @@
 # Introduction
-Hare i am created simple backend using convex and express.
+Here I have created a simple backend using convex and express.
 Convex is a Backend Application Platform that keeps you focused on building your product. Convex Functions, Database, File Storage, Scheduling, and Search fit together cohesively, and are accessible from client libraries for your favorite environment. Everything in Convex is live and realtime.[publish](https://docs.convex.dev/home)
 
 ## How To Run
