@@ -7,7 +7,7 @@ Convex is a Backend Application Platform that keeps you focused on building your
 Run the following command
 
 ```bash
-npm app.js
+nodemon app.js && npx convex dev
 ```
 
 ## Base URL
