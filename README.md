@@ -11,7 +11,10 @@ npm app.js
 ```
 
 ## Base URL
-ROOT URL: `http://localhost:4444`
+
+ROOT URL: `http://localhost:4444`,
+Live URL: `https://nodejs-convex.onrender.com/`
+
 <br>
 
 ## Endpoints
@@ -88,3 +91,44 @@ ROOT URL: `http://localhost:4444`
     <br>
 
 
+### Get brandedFoods 
+
+-   **Endpoint:** `/brandedFoods`
+-   **Method:** `GET`
+-   **Description:** fetch 25 items.
+-   **Response:** ```json {
+    "message": "Items fetched successfully",
+    "data": [
+        {
+            "_creationTime": 1710680813867.3306,
+            "_id": "j972ajnekav8bwydghyr65ajex6nf604",
+            "isCompleted": true,
+            "text": "Buy groceries"
+        },
+        {
+            "_creationTime": 1710680813867.3308,
+            "_id": "j97akr3qgbrsjz7sc33y169wh56netq0",
+            "isCompleted": true,
+            "text": "Go for a swim"
+        },
+        {
+            "_creationTime": 1710680813867.331,
+            "_id": "j976wc6rd0ajyprs3ghfj6xc7s6nenhg",
+            "isCompleted": false,
+            "text": "Integrate Convex"
+        },
+        {
+            "_creationTime": 1710686089679.0994,
+            "_id": "j973t9snpe2de9me2gcyxg2hhd6nf5q8",
+            "isCompleted": true,
+            "text": "bijon"
+        },
+        {
+            "_creationTime": 1710686814687.1716,
+            "_id": "j97d8s2xfskwt5nx4s7s9vw5tx6nfwhm",
+            "isCompleted": true,
+            "text": "a"
+        }
+    ]
+}```
+    <br><br>
