@@ -45,7 +45,7 @@ export const getBrandedFoods = query({
   export const getBrandedFood2 = query({
     args: {},
     handler: async (ctx) => {
-      return await ctx.db.query("brandedFoods").take(25);
+      return await ctx.db.query("brandedFoods").take(2);
     },
   });
 
